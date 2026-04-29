@@ -19,6 +19,59 @@
       ]
     },
     {
+      "atomType": "Extrude",
+      "x": 0.48677248677248675,
+      "y": 0.5654596100278552,
+      "uniqueID": "id-122898",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 4
+        }
+      ]
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.707010582010582,
+      "y": 0.6211699164345404,
+      "uniqueID": "id-122902",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "148ZZ Bearing",
+          "currentEquation": "148ZZ Bearing"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 1
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 0.2
+        },
+        {
+          "name": "Source Link",
+          "ioValue": "https://shop.maslowcnc.com/products/148zz-bearing",
+          "currentEquation": "https://shop.maslowcnc.com/products/148zz-bearing"
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "148ZZ Bearing",
+        "numberNeeded": 1,
+        "costUSD": 0.2,
+        "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+      }
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.3584656084656085,
       "y": 0.6406685236768802,
@@ -27,8 +80,7 @@
       "ioValues": [
         {
           "name": "OD",
-          "ioValue": 14,
-          "currentEquation": "14"
+          "ioValue": 14
         },
         {
           "name": "ID",
@@ -159,68 +211,9 @@
       "unitsKey": "Unitless",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1777482957817
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.48677248677248675,
-      "y": 0.5654596100278552,
-      "uniqueID": "id-122898",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 4,
-          "currentEquation": "4"
-        }
-      ]
-    },
-    {
-      "atomType": "Add-BOM-Tag",
-      "x": 0.707010582010582,
-      "y": 0.6211699164345404,
-      "uniqueID": "id-122902",
-      "name": "Add BOM Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Item Name",
-          "ioValue": "148ZZ Bearing",
-          "currentEquation": "148ZZ Bearing"
-        },
-        {
-          "name": "Number Needed",
-          "ioValue": 1
-        },
-        {
-          "name": "Cost (USD)",
-          "ioValue": 0.2
-        },
-        {
-          "name": "Source Link",
-          "ioValue": "https://shop.maslowcnc.com/products/148zz-bearing",
-          "currentEquation": "https://shop.maslowcnc.com/products/148zz-bearing"
-        }
-      ],
-      "BOMitem": {
-        "BOMitemName": "148ZZ Bearing",
-        "numberNeeded": 1,
-        "costUSD": 0.2,
-        "source": "https://shop.maslowcnc.com/products/148zz-bearing"
-      }
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-122882",
-      "ap2ID": "id-122898"
-    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-122898",
@@ -230,6 +223,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-122902",
       "ap2ID": "id-122863"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-122882",
+      "ap2ID": "id-122898"
     }
   ],
   "unitsKey": "MM",

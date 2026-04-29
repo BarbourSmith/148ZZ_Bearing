@@ -2,4 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|148ZZ Bearing|1|$0.20|https://shop.maslowcnc.com/products/148zz-bearing|
+|Total: |1|$0.20| |
