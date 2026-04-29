@@ -1,13 +1,238 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-122862",
-    "name": "148ZZ_Bearing",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-122862",
+  "name": "148ZZ_Bearing",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-122863",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.3584656084656085,
+      "y": 0.6406685236768802,
+      "uniqueID": "id-122882",
+      "name": "Concentric_Circles",
+      "ioValues": [
+        {
+          "name": "OD",
+          "ioValue": 14,
+          "currentEquation": "14"
+        },
+        {
+          "name": "ID",
+          "ioValue": 8
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-122876",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-122877",
+          "name": "OD",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-122878",
+          "name": "ID",
+          "type": "number"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.460559796437659,
+          "y": 0.42567567567567566,
+          "uniqueID": "id-122879",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 14
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.44529262086514,
+          "y": 0.7263513513513513,
+          "uniqueID": "id-122880",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.6615776081424937,
+          "y": 0.5506756756756757,
+          "uniqueID": "id-122881",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-122877",
+          "ap2ID": "id-122879"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-122878",
+          "ap2ID": "id-122880"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-122879",
+          "ap2ID": "id-122881"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-122880",
+          "ap2ID": "id-122881"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-122881",
+          "ap2ID": "id-122876"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-04-29T10:23:39.190Z",
+        "privateRepo": false,
+        "repoName": "Concentric_Circles",
+        "dateCreated": "2025-11-08T04:08:14Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "id-1170",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Concentric_Circles",
+        "topics": [],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739563",
+        "ranking": 18.9,
+        "searchField": "concentric_circles barboursmith creates two concentric circles. the result is 2d ",
+        "owner": "BarbourSmith",
+        "description": "Creates two concentric circles. The result is 2D",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1777482957817
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.48677248677248675,
+      "y": 0.5654596100278552,
+      "uniqueID": "id-122898",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 4,
+          "currentEquation": "4"
+        }
+      ]
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.707010582010582,
+      "y": 0.6211699164345404,
+      "uniqueID": "id-122902",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "148ZZ Bearing",
+          "currentEquation": "148ZZ Bearing"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 1
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 0.2
+        },
+        {
+          "name": "Source Link",
+          "ioValue": "https://shop.maslowcnc.com/products/148zz-bearing",
+          "currentEquation": "https://shop.maslowcnc.com/products/148zz-bearing"
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "148ZZ Bearing",
+        "numberNeeded": 1,
+        "costUSD": 0.2,
+        "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+      }
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-122882",
+      "ap2ID": "id-122898"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-122898",
+      "ap2ID": "id-122902"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-122902",
+      "ap2ID": "id-122863"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
